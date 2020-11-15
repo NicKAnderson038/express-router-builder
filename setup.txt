@@ -1,0 +1,8 @@
+// Quickly build a full stack application
+
+mkdir node-react-app && cd node-react-app
+npx create-react-app client
+npx express-generator backend --no-view
+||
+npx create-express-api name-of-app
+cd backend && npm install
